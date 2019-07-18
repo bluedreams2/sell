@@ -171,10 +171,8 @@ public class OrderServiceImpl implements OrderService {
             log.error("【完结订单】更新失败,orderMaster={}",orderMaster);
             throw new  SellException(ResultEnum.ORDER_UPDATE_FAIL);
         }
-
         return orderDTO;
     }
-
     //支付
     @Override
     @Transactional
