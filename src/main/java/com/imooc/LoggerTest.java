@@ -10,7 +10,6 @@ import org.junit.Test;
 @Slf4j
 public class LoggerTest {
 
-
     @Test
     public void tess1(){
         log.debug("debug..");
